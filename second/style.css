@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff ;
+}
+
+.left {
+  margin: 0;
+  width: calc(99.99%/3);
+  height: 100vh;
+  display: flex;
+  background-color: #75A1D0;
+}
+.middle {
+  margin: 0;
+  width: calc(99.99%/3);
+  height: 100vh;
+  display: flex;
+  background-color: #97FFFF;
+}
+.right {
+  margin: 0;
+  width: calc(99.99%/3);
+  height: 100vh;
+  display: flex;
+  background-color: #BCED91;
+  align-items: flex-end;
+}
+
+.imgPlaceHolder {
+  margin: 0;
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  line-height: 15vh;
+  color: white;
+  background-color: red;
+}
